@@ -13,7 +13,7 @@ from pages import load_pages
 SITE_NAME = "Crown Cover Co."
 BASE_URL = "https://negativeharmony.github.io/cap-seo-pages/"
 STORE_URL = ""  # set to your store's address once it exists, and the shop button appears
-GOOGLE_VERIFICATION = ""  # paste the code from Google Search Console here
+GOOGLE_VERIFICATION = "bdqtT8QO7ATIYSB0Kpvnw5TpCxEKoLDPyKWJNV9Zej4"  # paste the code from Google Search Console here
 CONTENT = Path("content/pages.csv")
 OUT = Path("docs")
 
