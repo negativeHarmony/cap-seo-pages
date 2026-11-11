@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Cap guides</h1>
+<p>Practical advice on choosing caps and hats for thinning hair and hair loss.</p>
+<ul>
+  {% for page in pages %}
+  <li>
+    <a href="{{ page.slug }}/">{{ page.h1 }}</a><br>
+    {{ page.meta_description }}
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

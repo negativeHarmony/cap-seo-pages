@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+  <h1>{{ page.h1 }}</h1>
+  <p>{{ page.intro }}</p>
+
+  <h2>What to look for</h2>
+  <ul>
+    {% for tip in page.tips %}
+    <li>{{ tip }}</li>
+    {% endfor %}
+  </ul>
+
+ {% if store_url %}
+  <p><a class="cta" href="{{ store_url }}">Shop {{ site_name }} caps</a></p>
+  {% endif %}
+  <p><a href="{{ home_url }}">More guides</a></p>
+</article>
+{% endblock %}

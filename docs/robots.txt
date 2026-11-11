@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://negativeharmony.github.io/cap-seo-pages/sitemap.xml
